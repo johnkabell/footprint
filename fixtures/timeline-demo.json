@@ -1,0 +1,93 @@
+[
+  {
+    "startTime": "2026-01-01T23:50:00+09:00",
+    "endTime": "2026-01-02T00:20:00+09:00",
+    "visit": {
+      "topCandidate": {
+        "placeID": "demo-park",
+        "semanticType": "Unknown",
+        "placeLocation": "geo:35.650000,139.700000",
+        "probability": "0.90"
+      },
+      "probability": "0.9"
+    }
+  },
+  {
+    "startTime": "2026-01-02T08:00:00+09:00",
+    "endTime": "2026-01-02T10:00:00+09:00",
+    "visit": {
+      "topCandidate": {
+        "placeID": "demo-home",
+        "semanticType": "Home",
+        "placeLocation": "geo:35.640000,139.702000",
+        "probability": "0.96"
+      },
+      "probability": "0.98"
+    }
+  },
+  {
+    "startTime": "2026-01-02T14:10:00+09:00",
+    "endTime": "2026-01-02T14:20:00+09:00",
+    "visit": {
+      "topCandidate": {
+        "placeID": "demo-park",
+        "semanticType": "Unknown",
+        "placeLocation": "geo:35.650000,139.700000",
+        "probability": "0.85"
+      },
+      "probability": "0.80"
+    }
+  },
+  {
+    "startTime": "2026-01-02T15:00:00+09:00",
+    "endTime": "2026-01-02T15:15:00+09:00",
+    "activity": {
+      "topCandidate": {
+        "type": "walking",
+        "probability": "0.6"
+      },
+      "start": "geo:35.650000,139.700000",
+      "end": "geo:35.652000,139.701000",
+      "distanceMeters": "500.5"
+    }
+  },
+  {
+    "startTime": "2026-01-02T06:30:00.000Z",
+    "endTime": "2026-01-02T07:00:00.000Z",
+    "timelinePath": [
+      {
+        "point": "geo:35.651000,139.701000",
+        "durationMinutesOffsetFromStartTime": "0"
+      },
+      {
+        "point": "geo:35.652000,139.701200",
+        "durationMinutesOffsetFromStartTime": "5"
+      },
+      {
+        "point": "geo:35.659000,139.703000",
+        "durationMinutesOffsetFromStartTime": "6"
+      }
+    ]
+  },
+  {
+    "startTime": "2026-01-03T10:00:00+09:00",
+    "endTime": "2026-01-03T10:05:00+09:00",
+    "activity": {
+      "topCandidate": {
+        "type": "cycling",
+        "probability": "0.8"
+      },
+      "start": "geo:35.655000,139.700000",
+      "end": "geo:35.656000,139.704000",
+      "distanceMeters": "1250"
+    }
+  },
+  {
+    "startTime": "2026-01-03T11:00:00+09:00",
+    "endTime": "2026-01-03T11:20:00+09:00",
+    "timelineMemory": {
+      "distanceFromOriginKms": "3",
+      "destinations": []
+    }
+  }
+]

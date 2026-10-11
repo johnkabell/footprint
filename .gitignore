@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.local.json
+private-data/
+.env
+.env.*
+Timeline.json
+**/Timeline.json
+**/*Takeout*.zip
+**/location-history.json
+**/Reviews.json
